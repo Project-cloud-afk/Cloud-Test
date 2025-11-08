@@ -1,0 +1,132 @@
+body{
+    overflow: hidden;
+
+}
+
+.layoutBody{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.layoutLeft{
+    background-color: #9772d9;
+}
+.layoutRight{
+    width: 100rem;
+    overflow-y: scroll;
+    background-image: linear-gradient(to bottom, #e0ecfd, #f8e7e4);
+}
+
+.cards{
+    width: 25rem;
+    height: 27rem;
+    box-shadow: 3px 5px 5px 0px #e0b3fb;
+}
+.addCardContainer{
+    bottom: 15%;
+    right: 7%;
+}
+
+.addCard{
+    width: 30rem;
+    height: auto;
+    box-shadow: 3px 5px 5px 0px #e0b3fb;
+    z-index: 999;
+}
+
+.editContainer{
+    position: absolute;
+    top: 15%;
+}
+
+.editCard{
+    width: 30rem;
+    height: auto;
+    box-shadow: 3px 5px 5px 0px #e0b3fb;
+}
+
+
+
+
+.addTask{
+    height: 5rem;
+    width: 5rem;
+    background-color: #9772d9;
+    position: absolute;
+    bottom: 10vh;
+    right: 5vw;
+    border-radius: 50%;
+    border: none;
+    z-index: 999;
+}
+
+.cardButtons{
+    width: 100%;
+    height: 15%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.buttons{
+    width: 3rem;
+    height: 3rem;
+    
+}
+
+.card-subtitle { 
+    color: gray
+}
+
+
+
+.logoIcon{
+    height: 6rem;
+}
+
+.logoText{ 
+    font-size: 4rem;
+    font-weight: bold;
+    width: 20rem;
+}
+
+.barElements{ 
+    margin-top: 10rem;
+    font-size: 1rem; 
+    z-index: 999; 
+    height: 20rem;
+}
+
+.Elements{ 
+    padding-left: 5rem;
+}
+
+
+@media (max-width: 1311px) {
+        .cards{
+            width: 20rem;
+            height: 25rem;
+        }
+
+        .logoText{
+            width: 15rem;
+            font-size: 3rem;
+        }
+        
+        .logoIcon{
+            height: 4rem;
+        }
+  }
+
+  @media (max-width: 700px) {
+    
+    .addCard{
+        width: 20rem;
+        height: auto;
+        box-shadow: 3px 5px 5px 0px #e0b3fb;
+        z-index: 999;
+    }
+    
+  }
+
